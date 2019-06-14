@@ -76,12 +76,6 @@ img.one {
     margin-right: 20px;
 }
 
-.img.one::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
 .content {
     flex: 1 0 auto;
 }
