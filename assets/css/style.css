@@ -1,0 +1,40 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.header {
+    overflow: hidden;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    line-height: 40px;
+}
+
+.topnav {
+    float: right;
+}
+
+.header-title {
+    display: inline-block;
+    padding: 20px;
+    margin: 0px;
+    background: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+}
