@@ -38,7 +38,7 @@ header {
     color: #777777;
     text-decoration: none;
     text-align: center;
-    padding: 12px;
+    padding: 14px;
     line-height: 40px;
 }
 
@@ -57,7 +57,7 @@ header {
 
 .about-me {
     width: 960px;
-    height: 450px;
+    height: 400px;
     padding: 20px;
     margin: 0 auto;
     margin-top: 50px;
