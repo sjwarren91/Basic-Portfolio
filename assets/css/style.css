@@ -57,7 +57,7 @@ header {
 
 .about-me, .Contact {
     width: 960px;
-    height: 400px;
+    height: 450px;
     padding: 20px;
     margin: 0 auto;
     margin-top: 50px;
@@ -73,6 +73,7 @@ header {
     margin-top: 50px;
     margin-bottom: 50px;
     height: 960px;
+    border: 1px solid #dddddd;
 }
 
 .Contact{
@@ -97,6 +98,7 @@ img.one {
 
 .footer {
     background-color: #666666;
+    color:white;
     flex-shrink: 0;
     text-align: center;
     border-top: 8px solid #4aaaa5;
@@ -168,5 +170,11 @@ label {
 .Forms {
     padding: 20px;
     padding-top: 0; 
+}
+
+p.p1 {
+    text-align: justify;
+    line-height: 1.5;
+    color: #777777;
 }
 
