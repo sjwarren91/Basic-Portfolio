@@ -87,6 +87,7 @@ img.one {
     background-color: #666666;
     flex-shrink: 0;
     text-align: center;
+    border-top: 8px solid #4aaaa5;
 }
 
 .Portfolio {
