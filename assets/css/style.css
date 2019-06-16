@@ -6,9 +6,8 @@ html {
 
 body {
     margin: 0;
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -65,10 +64,14 @@ header {
     border: 1px solid #dddddd;
 }
 
-.about-me-heading {
+.about-me-heading, .portfolio-heading {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #dddddd;
+}
+
+.portfolio-heading{
+    margin: 20px;
 }
 
 img.one {
@@ -83,5 +86,43 @@ img.one {
 .footer {
     background-color: #666666;
     flex-shrink: 0;
+    text-align: center;
 }
 
+.Portfolio {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 960px;
+}
+
+.port-one, .port-two,
+.port-three, .port-four,
+.port-five { 
+    float: left;
+    position: absolute;
+    margin-left: 50px
+}
+
+
+h3.P1 {
+    background-color: #4aaaa5;
+    width: 240px;
+    padding: 10px; 
+    position: relative;
+    top: 150px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+.row {
+    width: 100%;
+    height: 280px;
+}
