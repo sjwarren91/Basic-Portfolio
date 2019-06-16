@@ -127,3 +127,7 @@ h3.P1 {
     width: 100%;
     height: 280px;
 }
+
+img {
+    border-radius: 8px;
+}
