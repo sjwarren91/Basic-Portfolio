@@ -123,6 +123,9 @@ h3.P1 {
     top: 150px;
     display: inline-block;
     margin-left: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
 }
 
 .clearfix::after{
@@ -165,6 +168,7 @@ input[type=submit]:hover{
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    color: #777777;
 }
 
 .Forms {
