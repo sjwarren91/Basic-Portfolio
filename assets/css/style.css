@@ -74,6 +74,11 @@ header {
     border: 1px solid #dddddd;
 }
 
+.text-img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .Portfolio {
     width: 960px;
     margin: 0 auto;
@@ -113,8 +118,6 @@ img.one {
     border-top: 8px solid #4aaaa5;
 }
 
-
-
 .port-one, .port-two,
 .port-three, .port-four,
 .port-five { 
@@ -122,7 +125,6 @@ img.one {
     position: absolute;
     margin-left: 50px
 }
-
 
 h3.P1 {
     background-color: #4aaaa5;
