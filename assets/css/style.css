@@ -38,8 +38,17 @@ header {
     color: #777777;
     text-decoration: none;
     text-align: center;
-    padding: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
     line-height: 40px;
+}
+
+.two {
+    border-left: 1px solid #cccccc;;
+    border-right: 1px solid #cccccc;;
+
 }
 
 .topnav {
