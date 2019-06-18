@@ -30,7 +30,8 @@ header {
 }
 
 .header a:hover{
-    background-color: #ddd;
+    /* background-color: #ddd; */
+    text-decoration: underline;
     color: black;
 }
 
@@ -46,9 +47,9 @@ header {
 }
 
 .two {
-    border-left: 1px solid #cccccc;;
-    border-right: 1px solid #cccccc;;
-
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    
 }
 
 .topnav {
