@@ -18,6 +18,7 @@ header {
     margin: 0px;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+    height: 68px;
 }
 
 .header {
@@ -42,7 +43,6 @@ header {
     margin-bottom: 14px;
     padding-left: 14px;
     padding-right: 14px;
-    line-height: 40px;
 }
 
 .two {
@@ -53,6 +53,8 @@ header {
 
 .topnav {
     float: right;
+    position: relative;
+    top: 8px;
 }
 
 .header-title {
@@ -62,6 +64,7 @@ header {
     background: #4aaaa5;
     font-size: 25px;
     font-weight: bold;
+    position: absolute;
 }
 
 .about-me, .Contact {
